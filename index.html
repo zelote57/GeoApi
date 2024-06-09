@@ -2,22 +2,23 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css
 /pico.min.css">
-
-<main class = "container">
-    <form id="form">
-        <label>
-        IP del usuario
-        <input required id="input" type="text" placeholder = "Introduce aquí IP">
-        <small>Por ejemplo: 23.123.12.11</small>
-        </label>
-        <button type ="submit" id ="submit">
-            Buscar información de esta IP
-        </button>
-    </form>
-
-    <div>
-        <pre id="results">
-
-        </pre>
-    </div>
-</main>
+<body>
+    <main class = "container">
+        <form id="form">
+            <label>
+            IP del usuario
+            <input required id="input" type="text" placeholder = "Introduce aquí IP">
+            <small>Por ejemplo: 23.123.12.11</small>
+            </label>
+            <button type ="submit" id ="submit">
+                Buscar información de esta IP
+            </button>
+        </form>
+    
+        <div>
+            <pre id="results">    
+            </pre>
+        </div>
+    </main>
+    <script src="assets/scripts/app.js"></script>    
+</body>
